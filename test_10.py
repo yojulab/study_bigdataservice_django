@@ -9,4 +9,7 @@ if res.status_code == 200: # B
     pass
 
 # 추가 입력됨.
-requests.get('www.naver.com')
+res = requests.get('www.naver.com')
+
+if res.status_code == 300: # 스파르타!
+    pass
