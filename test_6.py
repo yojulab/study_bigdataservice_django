@@ -7,4 +7,4 @@ res = requests.get('www.google.com')
 
 if res.status_code == 200: #B
     pass
-    first = 3
+    first = 5
