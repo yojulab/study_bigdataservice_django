@@ -11,5 +11,5 @@ if res.status_code == 200: # B
 # 추가 입력됨.
 res = requests.get('www.naver.com')
 
-if res.status_code == 300: # 스파르타!
+if res.status_code == cndehf:# 스파르타!
     pass
