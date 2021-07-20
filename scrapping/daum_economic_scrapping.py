@@ -16,7 +16,7 @@ if res.status_code == 200:
         href = str.strip(link.get('href'))
         try:
             cursor.execute(
-                "insert into polls_economics(create_date, href, title) values(datetime('now'), ?, ?)", (href,title))
+                "insert into dbapp_economic(create_date, href, title) values(datetime('now'), ?, ?)", (href,title))
             print(title, ' : ', href)
         except:
             pass
