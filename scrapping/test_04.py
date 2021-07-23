@@ -6,4 +6,4 @@ connect = sqlite3.connect('../db.sqlite3')
 
 df = pd.read_sql_query('select * from dbapp_economic de where id =', connect)
 
-# print(df.head(4))
+print(df.head(4))
